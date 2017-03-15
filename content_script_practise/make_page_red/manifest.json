@@ -1,0 +1,11 @@
+{
+    "name": "make page red",
+    "description": "make page red",
+    "version": "1",
+    "manifest_version": 2,
+    "content_scripts": [{
+        "matches": ["http://*/*"],
+        "js": ["content_script.js"],
+        "run_at": "document_end"
+    }]
+}
