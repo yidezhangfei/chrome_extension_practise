@@ -1,0 +1,17 @@
+{
+    "name": "Desktop Capture Me",
+    "description": "Show desktop media picker UI",
+    "version": "1",
+    "manifest_version": 2,
+    "icons": {
+        "32": "default-big.png"
+    },
+    "app": {
+        "background": {
+            "scripts": ["background.js"]
+        }
+    },
+    "permissions": [
+        "desktopCapture"
+    ]
+}
